@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--These are comments left by customers-->
+<comments>
+  <Comment>
+    <First_Name>test</First_Name>
+    <Last_Name>test</Last_Name>
+    <Email>test</Email>
+    <Subject>test</Subject>
+    <Message>test</Message>
+  </Comment>
+</comments>

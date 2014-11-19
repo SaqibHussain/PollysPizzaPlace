@@ -1,0 +1,626 @@
+body { 
+background-image: url('images/backdrop.png');
+background-position: center 0%; 
+text-align:center;
+background-repeat:no-repeat;
+margin: 0;
+padding: 0;
+}
+
+/* //////////// CONTAINERS \\\\\\\\\\\\\\\\ */
+#container {
+width: 960px;
+margin: 0 auto;
+padding: 0;
+} 
+
+#main {
+width: 800px;
+height: 100%;
+margin: 0 auto;
+padding: 0;
+} 
+
+#footer {
+width: 760px;
+margin: 0 auto 20px;
+}
+/* //////////// CONTAINERS \\\\\\\\\\\\\\\\ */
+
+
+
+/* //////////// TOP NAV BAR \\\\\\\\\\\\\\\\ */
+/* BUG: rgba transparant back */
+.topbar {
+margin: 0px;
+width: 100%;
+height: 20px;
+background-color:rgba(255,255,255,0.3);
+border-bottom: 1px solid black;
+list-style-type:none;
+}
+
+.topbar_txt {
+margin: 0 auto;
+width: 820px;
+}
+
+.topbar li {
+float:right; 
+position:relative; 
+}
+
+.topbar a {
+width:auto;
+display:block;
+padding: 0 8px;
+color:#ffffff; 
+text-decoration:none;
+line-height: 20px;
+font-size: 0.8em;
+}
+
+.topbar a:hover {
+color: orange; 
+border-bottom: 1px solid silver;
+}
+/* ////////////// TOP NAV BAR \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// HEADER \\\\\\\\\\\\\\\\ */
+#header {
+height: 120px;
+width: 960px;
+}
+
+#header_logo {
+height: 75px;
+width: 1000px;
+position: relative;
+top: 30px;
+}
+
+#header_logo p {
+font-family: Bradley Hand ITC;
+padding: 0px;
+margin: 0px;
+line-height: 36px;
+font-weight: bold;
+font-size: 5em;
+color: #ffffff;
+}
+/* ////////////// HEADER \\\\\\\\\\\\\\\\ */
+
+
+
+/* //////////// MAIN CONTENT \\\\\\\\\\\\\ */
+.content {
+width: 760px;
+padding: 10px;
+margin: 0 auto 20px;
+background-color: #111111;
+border: 1px solid #161616;
+}
+
+.content_block {
+padding: 10px;
+height: auto;
+background-color: #191919;
+}
+/* //////////// MAIN CONTENT \\\\\\\\\\\\\ */
+
+
+
+/* ////////////// MAIN MENU \\\\\\\\\\\\\\\ */
+.menu_container {
+clear:both; 
+float:left; 
+width:100%; 
+height:50px;
+overflow:hidden;
+background:url(images/menu.gif) repeat-x;
+}
+
+.idTabs {
+padding:0; 
+margin:0 auto; 
+list-style-type:none;
+float:left;
+position:relative; 
+left:50%;
+}
+  
+.idTabs li {
+float:left; 
+position:relative; 
+right:50%;
+font-weight: bold;
+}
+  
+.idTabs a {
+width:auto;
+height: 40px;
+display:block;
+padding: 0 15px;
+color:#fff; 
+background:#08c; 
+text-decoration:none;
+line-height: 40px;
+}
+  
+.idTabs a:hover {
+color: red; 
+background-image: url(images/active_button.gif);
+}
+
+.menu_ledge {
+height: 50px;
+width: 10px;
+background:url(images/l_menu.gif) no-repeat;
+float: left;
+}
+	
+.menu_redge {
+height: 50px;
+width: 10px;
+background:url(images/r_menu.gif) no-repeat;
+float: right;
+}	
+/* ////////////// MAIN MENU \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// SUB MENU \\\\\\\\\\\\\\\ */
+.submenu_container {
+clear:both; 
+float:left; 
+width:100%; 
+height:50px;
+margin: 5px 0;
+overflow:hidden;
+background:url(images/sub_menu.gif) repeat-x;
+}
+
+.submenu {
+padding:0; 
+margin: auto; 
+list-style-type:none;
+float:left;
+position:relative; 
+left:50%;
+}
+  
+.submenu li {
+float:left; 
+position:relative; 
+right:50%;
+}
+  
+.submenu a {
+width:auto;
+height: 40px;
+display:block;
+padding: 0 15px;
+color:#fff; 
+text-decoration:none;
+line-height: 30px;
+}
+  
+.submenu a:hover {
+color:#000; 
+background:#d4d4d4;
+}
+/* ////////////// SUB MENU \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// LOGIN PAGE \\\\\\\\\\\\\\\ */
+.loginform 
+{
+	color: White;
+	position: relative;
+ left: 250px;
+ }
+/* ////////////// LOGIN PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// LEAVE A MESSAGE PAGE \\\\\\\\\\\\\\\ */
+#lmt{
+font-size: large; 
+font-family: 'Adobe Song Std L'; 
+color: #CCCCCC;
+}
+
+#lmtd1 {
+font-size: large; 
+font-family: 'Adobe Song Std L'; 
+color: #CCCCCC;
+width: 101px;
+height: 44px;
+}
+#lmtd2 {
+width: 204px;
+height: 41px;
+}
+/* ////////////// LEAVE A MESSAGE PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// SPECIALS PAGE \\\\\\\\\\\\\\\ */
+#sp1{
+font-size: x-large; 
+font-family: 'Adobe Song Std L'; 
+color: #CCCCCC;
+}
+#st1 {
+font-size: large; 
+font-family: 'Adobe Song Std L'; 
+color: #CCCCCC;
+text-align: center;
+}
+#ss1
+{
+	text-decoration: underline;
+	font-size: larger; 
+}
+/* ////////////// SPECIALS PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// HOME PAGE \\\\\\\\\\\\\\\ */
+.content_block_HP {
+padding: 10px;
+height: 720px;
+background-color: #191919;
+}
+#hpp1 
+{
+font-size: xx-large; 
+font-family: 'Adobe Song Std L'; 
+color: #CCCCCC;
+}
+#hpp2 
+{
+	font-size: xx-large; 
+font-family: 'Adobe Song Std L'; 
+color: #CCCCCC;
+text-decoration: underline;	
+}
+#hpp3 
+{
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+	width: 320px;
+    text-align: center;  
+    position: relative; 
+    float: left;
+}
+#hpp4 
+{
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+	width: 320px;
+    text-align: center; 
+    position: relative; 
+    float: right;
+}
+#hpp5 
+{
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+	width: 320px;
+    text-align: center; 
+    position: relative; 
+    float: left;
+}
+#hpp6 
+{
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+	width: 320px;
+    text-align: center; 
+    position: relative; 
+    float: right;
+}
+/* ////////////// HOME PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// NEWS PAGE \\\\\\\\\\\\\\\ */
+#npp1 
+{
+	font-size: x-large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+}
+#npp2 
+{
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+    text-align: left; 
+    text-decoration: underline;
+}
+#npp3 
+{
+	font-size: medium;
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+    text-align: left; 
+}
+/* ////////////// NEWS PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// MENU PAGE \\\\\\\\\\\\\\\ */
+#mp1 
+{
+	font-size: x-large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+}
+.mp2 
+{
+	text-align: left;
+	position:relative;
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+	width: auto;
+}
+.center 
+{
+	text-align:center;
+}
+/* ////////////// MENU PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// FIND US PAGE \\\\\\\\\\\\\\\ */
+#fup1 
+{
+	font-size: x-large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+}
+#fup2 
+{
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+    text-decoration: underline;
+}
+#fup3 
+{
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+    text-decoration: underline;
+    text-align: left;
+    position:relative;
+    left: 50px;
+}
+/* ////////////// FIND US PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// HISTORY PAGE \\\\\\\\\\\\\\\ */
+#hp1 
+{
+	font-size: x-large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+}
+#hp2 
+{
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+	text-align: left;
+}
+/* ////////////// HISTORY PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// EMAIL US PAGE \\\\\\\\\\\\\\\ */
+#eup1 
+{
+	font-size: x-large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+}
+#eup2 
+{
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+	text-align: left;
+}
+#eus1 
+{
+	color: red; 
+}
+/* ////////////// EMAIL US PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// EMAIL US PAGE \\\\\\\\\\\\\\\ */
+#cup1 
+{
+	font-size: x-large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+}
+#cup2 
+{
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+	text-align: left;
+}
+#cus1 
+{
+	color: red; 
+}
+/* ////////////// EMAIL US PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// ABOUT PAGE \\\\\\\\\\\\\\\ */
+#aup1 
+{
+	font-size: x-large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+}
+#aup2 
+{
+	font-size: larger; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+	text-align: left;
+	text-decoration: underline;
+}
+#aup3 
+{
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+	text-align: left;
+}
+#aul1
+{
+	font-size: large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+	text-align: left;
+}
+/* ////////////// ABOUT PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// MESSAGES PAGE \\\\\\\\\\\\\\\ */
+#mpp1 
+{
+	font-size: x-large; 
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+}
+#mpp2 
+{
+	font-size: 18pt;
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+    text-align: left; 
+    text-decoration: underline;
+}
+#mpp3 
+{
+	font-size: large;
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+    text-align: left; 
+}
+#mpp4 
+{
+	font-size: large;
+	font-family: 'Adobe Song Std L'; 
+	color: red; 
+    text-align: left; 
+    left: 30px;
+    position: relative;
+}
+#mpp5
+{
+	font-size: large;
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+    text-align: left; 
+    left: -30px;
+    position: relative;
+}
+
+#mps1
+{
+	font-size: large;
+	font-family: 'Adobe Song Std L'; 
+	color: black;
+    text-align: left; 
+}
+/* ////////////// MESSAGES PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// STATS PAGE \\\\\\\\\\\\\\\ */
+#spp1 
+{
+	font-size: x-large;
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC; 
+}
+#spp2 
+{
+	font-size: larger;
+	font-family: 'Adobe Song Std L'; 
+	color: #CCCCCC;  
+}
+#sps1 
+{
+	text-decoration: blink;
+	color: Red;
+}
+/* ////////////// STATS PAGE \\\\\\\\\\\\\\\ */
+
+
+
+/* ////////////// JQUERY \\\\\\\\\\\\\\\ */
+.usual {
+    background: none repeat scroll 0 0 #181818;
+    border: 1px solid #222222;
+    color: #111111;
+    margin: 8px auto;
+    padding: 15px 20px;
+    width: 500px;
+}
+.usual li {
+    float: left;
+    list-style: none outside none;
+}
+.usual ul a {
+    background: none repeat scroll 0 0 #444444;
+    color: #FFFFFF;
+    display: block;
+    font: 10px Verdana;
+    margin: 1px 1px 1px 0;
+    padding: 6px 10px;
+    text-decoration: none !important;
+}
+.usual ul a:hover {
+    background: none repeat scroll 0 0 #111111;
+    color: #FFFFFF;
+}
+.usual ul a.selected {
+    background: none repeat scroll 0 0 snow;
+    border-bottom: 1px solid snow;
+    color: #000000;
+    cursor: default;
+    margin-bottom: 0;
+}
+.usual div {
+    background: none repeat scroll 0 0 snow;
+    clear: left;
+    font: 10pt Georgia;
+    padding: 10px 10px 8px;
+}
+.usual div a {
+    color: #000000;
+    font-weight: bold;
+}
+/* ////////////// JQUERY \\\\\\\\\\\\\\\ */
+
+

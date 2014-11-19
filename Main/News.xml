@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<news>
+  <Article>
+    <Topic>Now Open in Birmingham!</Topic>
+    <Date>01/02/2011</Date>
+    <Text>Pollys Pizza Place has now opened a restaurant in Birmingham! Check the About page for opening times!</Text>
+  </Article>
+  <Article>
+    <Topic>Welcome Recruits!</Topic>
+    <Date>15/01/2011</Date>
+    <Text>We're now accepting new recurits to join the ranks of the professional pizza makers in the areas of London and Northampton, think you've got what it takes? Contact us with your credentials by going to the contact us page</Text>
+  </Article>
+  <Article>
+    <Topic>Merry Christmas</Topic>
+    <Date>25/12/2010</Date>
+    <Text>Merry Chirstmas to all the pizza lovers from Pollys Pizza Place!</Text>
+  </Article>
+  <Article>
+    <Topic>New site!</Topic>
+    <Date>10/10/2010</Date>
+    <Text>Our new website is online! Feel free to explore, any feedback is greatly welcome</Text>
+  </Article>
+</news>

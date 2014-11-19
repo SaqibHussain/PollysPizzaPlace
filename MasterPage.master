@@ -1,0 +1,113 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="StyleSheet" href="style.css" type="text/css" media="screen" />
+    <title>Pollys Pizza Place</title>
+
+    <script src="/Website1/jquery.idTabs.min.js" type="text/javascript"></script>
+    <script src="jquery.idTabs.min.js" type="text/javascript"></script>
+        <script src="jquery-1.5.min.js" type="text/javascript"></script>
+    <script src="/Website1/jquery-1.5.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!-- Top Navbar -->
+    <div class="topbar">
+        <div class="topbar_txt">
+            <ul class="topbar">
+                <li>
+                    <asp:LoginStatus ID="LoginStatus1" runat="server" />
+                </li>
+                <li><a href="/Website1/About/About.aspx">About</a></li>
+                <li><a href="/Website1/Contact Us/Leave A Message.aspx">Find Us</a></li>
+                <li><a href="/Website1/Main/News.aspx">News</a></li>
+                <li><a href="/Website1/Menu/Specials.aspx">Specials</a></li>
+                <li><a href="/Website1/Menu/Menu.aspx">Order</a></li>
+                <li><a href="/Website1/Main/Home.aspx">Home</a></li>
+                <li>
+                    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource2">
+                    </asp:Menu>
+                </li>
+                <li>
+                    <asp:Menu ID="Menu2" runat="server" DataSourceID="SiteMapDataSource3">
+                    </asp:Menu>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- MAIN bounding Box 960p, centered -->
+    <div id="container">
+        <div id="header">
+            <div id="header_logo">
+                <p>
+                    Pollys Pizza Place</p>
+            </div>
+        </div>
+        <div id="main">
+            <div class="menu_container">
+                <div class="menu_ledge">
+                </div>
+                <ul class="idTabs">
+                    <li><a href="#idTab1">Home</a></li>
+                    <li><a href="#idTab2">Menu</a></li>
+                    <li><a href="#idTab3">Contact Us</a></li>
+                    <li><a href="#idTab4">About</a></li>
+                </ul>
+                <div class="menu_redge">
+                </div>
+            </div>
+            <div class="content">
+                <div class="submenu_container">
+                    <div id="idTab1">
+                        <ul class="submenu">
+                            <li><a href="/Website1/Main/Home.aspx">Home</a></li>
+                            <li><a href="/Website1/Main/News.aspx">News</a></li>
+                            <li><a href="/Website1/Main/Stats.aspx">Stats</a></li>
+                        </ul>
+                    </div>
+                    <div id="idTab2">
+                        <ul class="submenu">
+                            <li><a href="/Website1/Menu/Menu.aspx">Pizzas</a></li>
+                            <li><a href="/Website1/Menu/Drinks.aspx">Drinks</a></li>
+                            <li><a href="/Website1/Menu/Specials.aspx">Specials</a></li>
+                        </ul>
+                    </div>
+                    <div id="idTab3">
+                        <ul class="submenu">
+                            <li><a href="/Website1/Contact Us/Contact Us.aspx">Call Us</a></li>
+                            <li><a href="/Website1/Contact Us/E-mail Us.aspx">E-mail Us</a></li>
+                            <li><a href="/Website1/Contact Us/Leave A Message.aspx">Leave a message right now</a></li>
+                        </ul>
+                    </div>
+                    <div id="idTab4">
+                        <ul class="submenu">
+                            <li><a href="/Website1/About/About.aspx">About</a></li>
+                            <li><a href="/Website1/About/History.aspx">History</a></li>
+                            <li><a href="/Website1/About/FindUs.aspx">Find Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <div id="footer">
+                    <br />
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" DataSourceID="SiteMapDataSource1"
+                        Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+                        <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                        <CurrentNodeStyle ForeColor="#333333" />
+                        <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                        <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+                    </asp:SiteMapPath>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" SiteMapProvider="SpecialSiteMapProvider" />
+                    <asp:SiteMapDataSource ID="SiteMapDataSource3" runat="server" SiteMapProvider="SpecialSiteMapProvider2" />
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

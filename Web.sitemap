@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Main/Home.aspx" title="Home"  description="Home">
+    <siteMapNode url="~/Menu/Menu.aspx" title="Menu"  description="Menu">
+      <siteMapNode url="~/Menu/Drinks.aspx" title="Drinks"  description="Drinks" />
+      <siteMapNode url="~/Menu/Specials.aspx" title="Specials"  description="Specials" />
+    </siteMapNode>
+    <siteMapNode url="~/Contact Us/Contact Us.aspx" title="Contact Us"  description="Contact Us">
+      <siteMapNode url="~/Contact Us/E-mail Us.aspx" title="E-Mail Us"  description="E-Mail Us" />
+      <siteMapNode url="~/Contact Us/Leave A Message.aspx" title="Leave a message right now"  description="Leave a message right now" />
+    </siteMapNode>
+    <siteMapNode url="~/About/About.aspx" title="About"  description="About">
+      <siteMapNode url="~/About/History.aspx" title="History"  description="History" />
+      <siteMapNode url="~/About/FindUs.aspx" title="Find Us"  description="Find Us" />
+    </siteMapNode>
+    <siteMapNode url="~/Hidden/Hidden.aspx" title="Hidden"  description="Hidden">
+      <siteMapNode url="~/Hidden/Messages.aspx" title="Messages"  description="Messages" />
+    </siteMapNode>
+    <siteMapNode url="~/Main/News.aspx" title="News"  description="News" />
+    <siteMapNode url="~/Main/Stats.aspx" title="Stats"  description="Stats" />
+  </siteMapNode>
+</siteMap>
